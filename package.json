@@ -1,6 +1,6 @@
 {
-  "name": "promozap-v3-fase1-ia-real",
-  "version": "3.0.0",
+  "name": "promozap-v31-profissional-ia",
+  "version": "3.1.0",
   "scripts": {
     "dev": "vite --host 0.0.0.0",
     "build": "vite build",

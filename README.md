@@ -1,17 +1,15 @@
-# PromoZap V3 - Fase 1 IA Real
+# PromoZap V3.1 Profissional IA
 
-Esta versão chama uma API da Vercel em `/api/gerar-promocao`.
+Melhorias principais:
+- Imagem IA gerada sem textos dentro da imagem.
+- Overlay controlado pelo sistema, com opção de remover.
+- Textos mais profissionais: WhatsApp curto, WhatsApp persuasivo, Instagram, Status, Estratégia e Ideias extras.
+- Formatos: Feed, Status/Stories e Banner horizontal.
 
-## Ativar IA real
+## Deploy
+Suba os arquivos no GitHub. A Vercel fará o deploy automático.
 
-Na Vercel, vá em Settings > Environment Variables e adicione:
-
-```txt
-OPENAI_API_KEY=sua_chave_openai
+## Variáveis Vercel
+OPENAI_API_KEY
 OPENAI_TEXT_MODEL=gpt-4.1-mini
 OPENAI_IMAGE_MODEL=gpt-image-1
-```
-
-Depois clique em Redeploy.
-
-Sem a chave, o sistema roda em modo demonstração.
